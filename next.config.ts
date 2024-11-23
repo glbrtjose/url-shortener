@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const cspHeader = `
-    default-src 'self' https://*.amazon.com  ${process.env.NEXT_PUBLIC_API_URL} https://vercel.com;
+    default-src 'self' https://*.amazon.com ${process.env.NEXT_PUBLIC_API_URL} ${process.env.NEXT_PUBLIC_API_URL}/api/urls https://vercel.com;
     script-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.amazon.com https://vercel.com https://*.vercel.com;
     style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com;
     img-src 'self' data:  https://*.amazon.com https://vercel.com https://*.vercel.com;
