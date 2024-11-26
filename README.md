@@ -13,6 +13,7 @@ pnpm dev
 # or
 bun dev
 ```
+Create a .env file with the .env.example content, modify it with your api url
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
